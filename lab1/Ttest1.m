@@ -15,6 +15,6 @@ for i = 1:length(t_values)
     y_values(i) = y;
 end
 
-plot(t_values, y_values, 'LineWidth',2);
+plot(t_values, y_values);
 xlabel('time t');
 ylabel('y');
